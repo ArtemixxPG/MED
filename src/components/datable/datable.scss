@@ -1,0 +1,15 @@
+.datable{
+  height: 400px;
+  width: 100%;
+
+  .cell{
+    font-size: 12px;
+    &.over{
+      background-color: greenyellow;
+    }
+
+    &.lower{
+      background-color: orangered;
+    }
+  }
+}
